@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">SoshaTourGuide</string>
+    <string name="education">Education</string>
+    <string name="hangouts">Hangouts</string>
+    <string name="language">Communication</string>
+    <string name="shopping">Shopping</string>
+    <string name="about">About</string>
+
+</resources>

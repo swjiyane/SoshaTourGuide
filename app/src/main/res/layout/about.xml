@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:background="@color/primary_dark"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="wrap_content"
+        android:layout_height="139dp"
+        android:layout_marginBottom="8dp"
+        android:src="@drawable/soshanguve" />
+    <TextView
+        android:id="@+id/about_info"
+        android:gravity="center"
+        android:textColor="@android:color/white"
+        android:text="Soshanguve is a township situated about 45 km north of Pretoria, Gauteng, South Africa. It was established in 1974 on land scheduled to be incorporated into a bantustan bordering on Mabopane in Bophuthatswana, to Sotho, Shangaan, Nguni and Venda people (thus the name) who were resettled from Atteridgeville and Mamelodi. It later became part of the City of Tshwane Metropolitan Municipality."
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="8dp"/>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:gravity="center"
+        android:padding="4dp">
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/ic_room_black_24dp"/>
+        <TextView
+            android:textColor="@android:color/white"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="25°31′37″S 28°6′32″E"/>
+    </LinearLayout>
+
+    <TextView
+        android:textColor="@android:color/white"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Places of Interest"
+        android:padding="10dp"
+        android:gravity="center"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:paddingLeft="8dp"
+        android:textColor="@android:color/white"
+        android:text="-Tshwane University of Technology"/>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:paddingLeft="8dp"
+        android:textColor="@android:color/white"
+        android:text="-Giant Stadium"/>
+    <TextView
+        android:layout_width="match_parent"
+        android:paddingLeft="8dp"
+        android:textColor="@android:color/white"
+        android:layout_height="wrap_content"
+        android:text="-Tswaing Crater"/>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:paddingLeft="8dp"
+        android:textColor="@android:color/white"
+        android:text="- Eric Molobi Housing Innovation Hub"/>
+    <TextView
+        android:layout_width="match_parent"
+        android:paddingLeft="8dp"
+        android:textColor="@android:color/white"
+        android:layout_height="wrap_content"
+        android:text="-Tshwane South College"/>
+    <TextView
+        android:layout_width="match_parent"
+        android:paddingLeft="8dp"
+        android:textColor="@android:color/white"
+        android:layout_height="wrap_content"
+        android:text="-Soshanguve Community Radio and TUT FM 96.2"/>
+    <TextView
+        android:layout_width="match_parent"
+        android:paddingLeft="8dp"
+        android:textColor="@android:color/white"
+        android:layout_height="wrap_content"
+        android:text="-Botshilu Private Hospital"/>
+    </LinearLayout>
+</ScrollView>
